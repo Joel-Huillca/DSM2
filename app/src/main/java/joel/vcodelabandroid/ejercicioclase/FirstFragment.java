@@ -10,10 +10,12 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import joel.vcodelabandroid.ejercicioclase.databinding.FragmentFirstBinding;
+import joel.vcodelabandroid.ejercicioclase.databinding.FragmentThirdBinding;
 
 public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;
+
 
     @Override
     public View onCreateView(
@@ -28,7 +30,9 @@ public class FirstFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
+        /**
+         * Como comunicarnos entre Fragment - Navegación
+         */
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,6 +40,10 @@ public class FirstFragment extends Fragment {
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
         });
+
+
+
+
     }
 
     @Override
