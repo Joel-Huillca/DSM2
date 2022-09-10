@@ -32,6 +32,9 @@ public class FirstFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         /**
          * Como comunicarnos entre Fragment - Navegación
+         *
+         * setOnClickListener= Cuando el usuario toca el elemento
+         *
          */
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +44,19 @@ public class FirstFragment extends Fragment {
             }
         });
 
-
+        /**
+         *************************************************************************
+         *                   CAMBIO de ventana al tercer Fragment
+         *binding = Es la manera de comunicarme con la parte visual del componente
+         *************************************************************************
+         */
+        binding.buttonThird.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(FirstFragment.this)
+                        .navigate(R.id.action_FirstFragment_to_thirdFragment);
+            }
+        });
 
 
     }

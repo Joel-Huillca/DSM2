@@ -16,4 +16,6 @@
 
     <string name="fragment3_texto">Fragment 3 - Estado neutral </string>
     <string name="fragment1_texto">Fragment 3 - Estado neutral </string>
+    <string name='third_texto1'> Menu Principal</string>
+    <string name='third_texto2'>Fragment 2</string>
 </resources>
