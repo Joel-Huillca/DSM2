@@ -21,6 +21,13 @@
 
     <!-- TODO: Fragment_Second -->
     <string name='txt_button3'>Volver</string>
+    <string name="numero_1">Número 1</string>
+    <string name="numero_2">Número 2</string>
+    <string name="txt_button_calculate">CALCULAR</string>
+    <string name="txt_radio_suma">Sumar</string>
+    <string name="txt_radio_restar">Restar</string>
+    <string name="txt_radio_multiplicar">Multiplicar</string>
+    <string name="txt_radio_dividir">Dividir</string>
 
 
 
