@@ -9,13 +9,27 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-
-    <string name="hello_word">Hola mundo000</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="fragment3_texto">Fragment 3 - Estado neutral </string>
-    <string name="fragment1_texto">Fragment 3 - Estado neutral </string>
-    <string name='third_texto1'> Menu Principal</string>
-    <string name='third_texto2'>Fragment 2</string>
+
+
+    <!-- TODO: Fragment_first -->
+    <string name="title_welcome">BIENVENIDO</string>
+    <string name="txt_button1">Iniciar</string>
+    <string name="txt_button2">Creditos</string>
+
+
+    <!-- TODO: Fragment_Second -->
+    <string name='txt_button3'>Volver</string>
+
+
+
+    <!-- TODO: Fragment_third -->
+    <string name='title_credits'>CREDITOS</string>
+    <string name='txt_button4'>Menu Principal</string>
+    <string name='txt_button5'>Iniciar Calculadora</string>
+
+
+
 </resources>
+
