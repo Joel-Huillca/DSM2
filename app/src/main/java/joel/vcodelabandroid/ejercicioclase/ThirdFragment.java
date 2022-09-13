@@ -10,12 +10,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import joel.vcodelabandroid.ejercicioclase.databinding.FragmentFirstBinding;
-import joel.vcodelabandroid.ejercicioclase.databinding.FragmentSecondBinding;
 import joel.vcodelabandroid.ejercicioclase.databinding.FragmentThirdBinding;
 
 
@@ -27,11 +26,17 @@ public class ThirdFragment extends Fragment {
 
     private Spinner sp_operations;
 
+    //private String [] iconos = {"suma", "resta", "multiplicacion","division"};
+    //int [] cant_iconos = {R.drawable.suma, R.drawable.resta, R.drawable.multiplicacion, R.drawable.division};
+
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
+
     ) {
+
         binding = FragmentThirdBinding.inflate(inflater, container, false);
 
         txt_num1 = (EditText)  binding.txtNum1;
@@ -50,6 +55,8 @@ public class ThirdFragment extends Fragment {
         return binding.getRoot();
 
     }
+
+
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
