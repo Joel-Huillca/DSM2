@@ -5,6 +5,7 @@
     android:id="@+id/fondo_secondFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#050713"
     tools:context=".SecondFragment">
 
     <TextView

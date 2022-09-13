@@ -12,7 +12,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
-
     <!-- TODO: Fragment_first -->
     <string name="title_welcome">BIENVENIDO</string>
     <string name="txt_button1">Calculadora 1</string>
@@ -30,14 +29,24 @@
     <string name="txt_radio_dividir">Dividir</string>
 
 
-
     <!-- TODO: Fragment_third -->
     <string name='title_credits'>CALCULAR</string>
     <string name='txt_button4'>Menu Principal</string>
     <string name='respuesta'>Respuesta</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
 
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
 
-
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
 
 </resources>

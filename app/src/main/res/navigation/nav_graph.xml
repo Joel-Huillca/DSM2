@@ -40,4 +40,12 @@
             android:id="@+id/action_thirdFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/diseno_personalizado_Spinner"
+        android:name="joel.vcodelabandroid.ejercicioclase.Diseno_personalizado_Spinner"
+        android:label="Diseno_personalizado_Spinner" >
+        <action
+            android:id="@+id/action_diseno_personalizado_Spinner_to_thirdFragment2"
+            app:destination="@id/thirdFragment" />
+    </fragment>
 </navigation>

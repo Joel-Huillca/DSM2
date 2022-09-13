@@ -13,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import joel.vcodelabandroid.ejercicioclase.databinding.FragmentThirdBinding;
@@ -25,6 +26,8 @@ public class ThirdFragment extends Fragment {
     private EditText txt_num1,  txt_num2, resp_cal;
 
     private Spinner sp_operations;
+
+
 
     //private String [] iconos = {"suma", "resta", "multiplicacion","division"};
     //int [] cant_iconos = {R.drawable.suma, R.drawable.resta, R.drawable.multiplicacion, R.drawable.division};
@@ -48,7 +51,8 @@ public class ThirdFragment extends Fragment {
                 {
                     "Sumar", "Restar", "Multiplicar", "Dividir"
                 };
-        ArrayAdapter <String> adapter = new ArrayAdapter<>(this.getContext(), androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, operrations);
+        //ArrayAdapter <String> adapter = new ArrayAdapter<>(this.getContext(), androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, operrations);
+        ArrayAdapter <String> adapter = new ArrayAdapter<>(this.getContext(), R.layout.diseno_personalizado_spinner, operrations);
 
         sp_operations.setAdapter(adapter);
 

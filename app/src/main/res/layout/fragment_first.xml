@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BA026795"
+    android:background="#1E0350"
     app:layoutDescription="@xml/fragment_first_scene"
     tools:context=".FirstFragment">
 
@@ -18,6 +18,10 @@
         android:layout_marginTop="200dp"
         android:layout_marginBottom="494dp"
         android:text="@string/title_welcome"
+        android:textColor="#F8F2F2"
+        android:textColorHighlight="#EDEDED"
+        android:textColorHint="#F8F8F8"
+        android:textColorLink="#FDFCFC"
         android:textSize="23sp" />
 
     <androidx.constraintlayout.widget.Guideline
