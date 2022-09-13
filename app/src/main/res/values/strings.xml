@@ -15,8 +15,8 @@
 
     <!-- TODO: Fragment_first -->
     <string name="title_welcome">BIENVENIDO</string>
-    <string name="txt_button1">Iniciar</string>
-    <string name="txt_button2">Creditos</string>
+    <string name="txt_button1">Calculadora 1</string>
+    <string name="txt_button2">Calculadora 2</string>
 
 
     <!-- TODO: Fragment_Second -->
@@ -32,9 +32,11 @@
 
 
     <!-- TODO: Fragment_third -->
-    <string name='title_credits'>CREDITOS</string>
+    <string name='title_credits'>CALCULAR</string>
     <string name='txt_button4'>Menu Principal</string>
-    <string name='txt_button5'>Iniciar Calculadora</string>
+    <string name='respuesta'>Respuesta</string>
+
+
 
 
 

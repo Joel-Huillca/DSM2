@@ -31,7 +31,7 @@ public class SecondFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-        /****** Instaciar componentes ******/
+        /****** Instanciar componentes ******/
 
         //Binding: Es la variable que nos permite acceder a nuestra puerta visual
         binding = FragmentSecondBinding.inflate(inflater, container, false);
@@ -131,7 +131,7 @@ public class SecondFragment extends Fragment {
         double valor2 = Integer.parseInt(txt_number2.getText().toString());
         String respuesta = "";
         if (valor2 != 0){
-            double division = valor1 + valor2;
+            double division = valor1 / valor2;
             respuesta = String.valueOf(division);
             txt_respuesta.setText(respuesta);
         }else {

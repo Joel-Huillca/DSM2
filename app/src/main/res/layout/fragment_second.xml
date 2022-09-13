@@ -90,6 +90,7 @@
         android:layout_width="262dp"
         android:layout_height="95dp"
         android:ems="10"
+        android:hint="@string/respuesta"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,18 +102,18 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="229dp"
-        android:layout_height="215dp"
+        android:layout_width="131dp"
+        android:layout_height="213dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintHorizontal_bias="0.185"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.286">
+        app:layout_constraintVertical_bias="0.289">
 
         <RadioButton
             android:id="@+id/radio_suma"
-            android:layout_width="209dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/txt_radio_suma" />
 
